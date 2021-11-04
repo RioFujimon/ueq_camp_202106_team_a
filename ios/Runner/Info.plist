@@ -41,5 +41,11 @@
 	</array>
 	<key>UIViewControllerBasedStatusBarAppearance</key>
 	<false/>
+	<key>NSPhotoLibraryUsageDescription</key>
+	<string>このアプリはプロフィール画像や服の画像を利用するためにフォトライブラリにアクセスする必要があります</string>
+	<key>NSCameraUsageDescription</key>
+	<string>このアプリはプロフィール画像や服の画像を利用するためにカメラにアクセスする必要があります</string>
+	<key>NSMicrophoneUsageDescription</key>
+	<string>このアプリを利用するためにはマイクへのアクセス許可が必要です</string>
 </dict>
 </plist>
