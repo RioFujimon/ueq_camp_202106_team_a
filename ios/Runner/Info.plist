@@ -4,6 +4,8 @@
 <dict>
 	<key>CFBundleDevelopmentRegion</key>
 	<string>$(DEVELOPMENT_LANGUAGE)</string>
+	<key>CFBundleDisplayName</key>
+	<string>coordinate_sns_app</string>
 	<key>CFBundleExecutable</key>
 	<string>$(EXECUTABLE_NAME)</string>
 	<key>CFBundleIdentifier</key>
@@ -22,10 +24,18 @@
 	<string>$(FLUTTER_BUILD_NUMBER)</string>
 	<key>LSRequiresIPhoneOS</key>
 	<true/>
+	<key>NSCameraUsageDescription</key>
+	<string>このアプリはプロフィール画像や服の画像を利用するためにカメラにアクセスする必要があります</string>
+	<key>NSMicrophoneUsageDescription</key>
+	<string>このアプリを利用するためにはマイクへのアクセス許可が必要です</string>
+	<key>NSPhotoLibraryUsageDescription</key>
+	<string>このアプリはプロフィール画像や服の画像を利用するためにフォトライブラリにアクセスする必要があります</string>
 	<key>UILaunchStoryboardName</key>
 	<string>LaunchScreen</string>
 	<key>UIMainStoryboardFile</key>
 	<string>Main</string>
+	<key>UIStatusBarHidden</key>
+	<false/>
 	<key>UISupportedInterfaceOrientations</key>
 	<array>
 		<string>UIInterfaceOrientationPortrait</string>
@@ -41,11 +51,5 @@
 	</array>
 	<key>UIViewControllerBasedStatusBarAppearance</key>
 	<false/>
-	<key>NSPhotoLibraryUsageDescription</key>
-	<string>このアプリはプロフィール画像や服の画像を利用するためにフォトライブラリにアクセスする必要があります</string>
-	<key>NSCameraUsageDescription</key>
-	<string>このアプリはプロフィール画像や服の画像を利用するためにカメラにアクセスする必要があります</string>
-	<key>NSMicrophoneUsageDescription</key>
-	<string>このアプリを利用するためにはマイクへのアクセス許可が必要です</string>
 </dict>
 </plist>

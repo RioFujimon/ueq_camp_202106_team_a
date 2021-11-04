@@ -5,8 +5,10 @@ class NeumorphicCustomAppBar extends StatelessWidget
     implements PreferredSizeWidget {
   String title;
   double fontSize;
+  Widget leading;
 
-  NeumorphicCustomAppBar({required this.title, required this.fontSize});
+  NeumorphicCustomAppBar(
+      {required this.title, required this.fontSize, required this.leading});
 
   @override
   Widget build(BuildContext context) {
@@ -21,6 +23,7 @@ class NeumorphicCustomAppBar extends StatelessWidget
           color: Colors.black,
         ),
       ),
+      actions: [this.leading],
     );
   }
 
